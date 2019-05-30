@@ -1,0 +1,158 @@
+/* ==== BROWSER RESETS  ==== */
+* { padding: 0; margin: 0; box-sizing: border-box }
+body, html { height: 100% }
+body { max-width: 1600px }
+.img-fluid { max-width: 100%; height: auto }
+
+
+ /* ==== BODY ==== */
+ body { background-color: #ffb8b8 }
+
+
+/* ==== MAIN HEADING  ==== */
+
+h1 { font-family: 'Raleway', sans-serif;; letter-spacing: -1px; text-align: center }
+
+/* Desktop */
+@media all and (min-width:768px) {
+	h1 { 
+		font-size: 54px; 
+		line-height: 1.2;
+		width: 80%;
+		margin: 5% auto
+	}
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+	h1 { 
+		font-size:36px; 
+		line-height: 1.1;
+		width: 90%;
+		margin: 10% auto
+	}
+}
+
+/* ==== CONTENT CONTAINERS ==== */
+
+/* Desktop */
+@media all and (min-width:768px) {
+	.container { 
+		width: 60%;
+		margin: 0 auto 6% auto;
+		padding: 3% 5% 3% 5%;
+	}
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+	.container {
+		width: 80%;
+		margin: 0 auto 10% auto;
+		padding: 5% 6% 5% 6%;
+	}
+}
+
+/* ==== CONTAINER BACKGROUND COLORS =====  */
+
+.bg-purple     { background-color: #884ea0 } /* PT Serif */
+ .container { box-shadow: 7px 7px 5px #808080 }
+.bg-blue       { background-color: #0057ff } /* Raleway */
+ .container { box-shadow: 7px 7px 5px #808080 }
+.bg-pink       { background-color: #ff0d7b } /* PlayFair Display */
+ .container { box-shadow: 7px 7px 5px #808080 }
+.bg-black      { background-color: #000000 } /* Roboto Condensed */
+ .container { box-shadow: 7px 7px 5px #808080 }
+.bg-brown      { background-color: #5d3137 } /* Merriweather */
+ .container { box-shadow: 7px 7px 5px #808080 }
+.bg-yellow     { background-color: #fae16c } /* Source Sans Pro */
+ .container { box-shadow: 7px 7px 5px #808080 }
+
+
+/* ==== H2 SUB-HEADINGS INSIDE CONTAINERS ===== */
+
+.container h2 { font-weight: bold }
+
+/* Desktop */
+@media all and (min-width:768px) {
+	.container h2 { 
+		font-size: 54px;
+		line-height: 1.1;
+		margin-bottom: 6%;
+	}
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+	.container h2 { 
+		font-size: 32px;
+		line-height: 1.2;
+		margin-bottom: 10%;
+	}
+}
+
+/* ==== PARAGRAPH TEXT INSIDE CONTAINERS ===== */
+
+.container p { font-weight: normal }
+.container p.uppercase { text-transform: uppercase }
+
+/* Desktop */
+@media all and (min-width:768px) {
+	.container p { 
+		font-size: 18px; 
+		line-height: 1.6; 
+		margin-bottom: 3%;
+	}
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+	.container p { 
+		font-size: 16px; 
+		line-height: 1.5; 
+		margin-bottom: 5%;
+	}
+}
+
+/* ==== GOOGLE FONTS  ==== */
+
+.container h2, .container p { color: #fff }
+
+.container h2, .container p { color: #fff }
+ .bg-yellow h2, .bg-yellow p { color: #000 }
+
+.bg-purple h2, .bg-purple p { font-family: 'PT Serif', sans-serif; }
+.bg-blue   h2, .bg-blue   p { font-family: 'Raleway', sans-serif; }
+.bg-pink   h2, .bg-pink   p { font-family: 'Playfair Display', serif }
+
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+/* Raleway */
+.bg-blue p { font-weight: 500 }
+
+/* Playfair Display */
+.bg-pink h2 { font-weight: normal }
+.bg-pink p  { font-weight: bold }
+
+/* ==== FONT NAME BOX ==== */
+
+.box-font-details { display: inline-block; background: #607D8B }
+.box-font-details p { font-family: sans-serif;  line-height: 1; color: #fff; margin:0; padding:0 }
+
+/* Desktop */
+@media all and (min-width:768px) { 
+	.box-font-details { padding: 10px 16px 10px 16px } 
+	.box-font-details p { font-size: 15px }
+}
+
+/* Mobiles */
+@media all and (max-width:767px) { 
+	.box-font-details { padding: 6px 12px 6px 12px } 
+	.box-font-details p { font-size: 14px }
+}
+
+
+
